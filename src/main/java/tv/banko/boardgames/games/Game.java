@@ -27,23 +27,23 @@ public abstract class Game {
         this.listeners = new ArrayList<>();
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public String getDescription() {
+    public final String getDescription() {
         return description;
     }
 
-    public String getVersion() {
+    public final String getVersion() {
         return version;
     }
 
-    public String getAuthor() {
+    public final String getAuthor() {
         return author;
     }
 
-    public void addInstance(GameInstance instance) {
+    public final void addInstance(GameInstance instance) {
         if(instances.contains(instance)) {
             return;
         }
@@ -51,27 +51,27 @@ public abstract class Game {
         instances.add(instance);
     }
 
-    public void removeInstance(GameInstance instance) {
+    public final void removeInstance(GameInstance instance) {
         instances.remove(instance);
     }
 
-    public List<GameInstance> getInstances() {
+    public final List<GameInstance> getInstances() {
         return instances;
     }
 
-    public void addCommand(GameCommand command) {
+    public final void addCommand(GameCommand command) {
         commands.put(command.getCommand(), command);
     }
 
-    public Map<String, GameCommand> getCommands() {
+    public final Map<String, GameCommand> getCommands() {
         return commands;
     }
 
-    public void addListener(GameListener listener) {
+    public final void addListener(GameListener listener) {
         listeners.add(listener);
     }
 
-    public List<GameListener> getListeners() {
+    public final List<GameListener> getListeners() {
         return listeners;
     }
 }

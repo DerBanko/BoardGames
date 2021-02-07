@@ -56,31 +56,31 @@ public class GameCommand implements CommandExecutor, TabCompleter {
         return null;
     }
 
-    public Game getGame() {
+    public final Game getGame() {
         return game;
     }
 
-    public String getCommand() {
+    public final String getCommand() {
         return command;
     }
 
-    public String getUsage() {
+    public final String getUsage() {
         return usage;
     }
 
-    public String getLabel() {
+    public final String getLabel() {
         return label;
     }
 
-    public String getDescription() {
+    public final String getDescription() {
         return description;
     }
 
-    public String[] getAliases() {
+    public final String[] getAliases() {
         return aliases;
     }
 
-    public String getPermission() {
+    public final String getPermission() {
         return permission;
     }
 }

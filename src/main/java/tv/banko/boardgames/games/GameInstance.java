@@ -17,7 +17,7 @@ public class GameInstance {
         this.players = new ArrayList<>();
     }
 
-    public Game getGame() {
+    public final Game getGame() {
         return game;
     }
 
@@ -49,7 +49,7 @@ public class GameInstance {
         return players.contains(uuid);
     }
 
-    public List<UUID> getPlayers() {
+    public final List<UUID> getPlayers() {
         return players;
     }
 }
