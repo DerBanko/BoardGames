@@ -5,7 +5,7 @@ import tv.banko.boardgames.Main;
 public enum Language {
 
     CHOSEN("Chosen", "Ausgewählt"),
-    CHOSEN_DICE_EXPLENATION("This dice will not be rolled again", "Dieser Würfel wird nicht neu gewürfelt"),
+    CHOSEN_DICE_EXPLANATION("This dice will not be rolled again", "Dieser Würfel wird nicht neu gewürfelt"),
     DICE_IMPACT_ON_RATING("This dice has an impact on the raiting", "Dieser Würfel zählt in die Wertung");
 
     private final String enGB;

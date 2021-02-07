@@ -151,7 +151,7 @@ public class Dice {
         grayOne = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MTI2OTczNWYxZTQ0NmJlY2ZmMjVmOWNiM2M4MjM2Nzk3MTlhMTVmN2YwZmJjOWEwMzkxMWE2OTJiZGQifX19"))
                 .setName("§f1 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -160,7 +160,7 @@ public class Dice {
         grayTwo = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4MWEzMmQ5NzhmOTMzZGViN2VhMjZhYTMyNmU0MTc0Njk3NTk1YTQyNmVhYTlmMmFlNWY5YzJlNjYxMjkwIn19fQ=="))
                 .setName("§f2 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -169,7 +169,7 @@ public class Dice {
         grayThree = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VhZGFkZWQ4MTU2M2YxYzg3NzY5ZDZjMDQ2ODlkY2RiOWU4Y2EwMWRhMzUyODFjZDhmZTI1MTcyOGQyZCJ9fX0="))
                 .setName("§f3 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -178,7 +178,7 @@ public class Dice {
         grayFour = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM2MDhjMmRiNTI1ZDZkNzdmN2RlNGI5NjFkNjdlNTNlOWQ3YmFjZGFmZjMxZDRjYTEwZmJiZjkyZDY2In19fQ=="))
                 .setName("§f4 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -187,7 +187,7 @@ public class Dice {
         grayFive = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE0NGM1MTkzNDM1MTk5YzEzNWJkNDdkMTY2ZWYxYjRlMmQzMjE4MzgzZGY5ZDM0ZTNiYjIwZDlmOGU1OTMifX19"))
                 .setName("§f5 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -196,7 +196,7 @@ public class Dice {
         graySix = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYxZjdlMzg1NTY4NTZlYWU1NTY2ZWYxYzQ0YThjYzY0YWY4ZjNhNTgxNjJiMWRkODAxNmE4Nzc4YzcxYyJ9fX0="))
                 .setName("§f6 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLANATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
