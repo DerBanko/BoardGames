@@ -1,7 +1,7 @@
 package tv.banko.boardgames.games.kniffel;
 
-import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
+import tv.banko.boardgames.language.Language;
 import tv.banko.boardgames.utils.ItemBuilder;
 import tv.banko.boardgames.utils.SkullCreator;
 
@@ -39,75 +39,75 @@ public class Dice {
         generateGoldenSix();
     }
 
-    public ItemStack getWhiteOne() {
+    public final ItemStack getWhiteOne() {
         return whiteOne;
     }
 
-    public ItemStack getWhiteTwo() {
+    public final ItemStack getWhiteTwo() {
         return whiteTwo;
     }
 
-    public ItemStack getWhiteThree() {
+    public final ItemStack getWhiteThree() {
         return whiteThree;
     }
 
-    public ItemStack getWhiteFour() {
+    public final ItemStack getWhiteFour() {
         return whiteFour;
     }
 
-    public ItemStack getWhiteFive() {
+    public final ItemStack getWhiteFive() {
         return whiteFive;
     }
 
-    public ItemStack getWhiteSix() {
+    public final ItemStack getWhiteSix() {
         return whiteSix;
     }
 
-    public ItemStack getGrayOne() {
+    public final ItemStack getGrayOne() {
         return grayOne;
     }
 
-    public ItemStack getGrayTwo() {
+    public final ItemStack getGrayTwo() {
         return grayTwo;
     }
 
-    public ItemStack getGrayThree() {
+    public final ItemStack getGrayThree() {
         return grayThree;
     }
 
-    public ItemStack getGrayFour() {
+    public final ItemStack getGrayFour() {
         return grayFour;
     }
 
-    public ItemStack getGrayFive() {
+    public final ItemStack getGrayFive() {
         return grayFive;
     }
 
-    public ItemStack getGraySix() {
+    public final ItemStack getGraySix() {
         return graySix;
     }
 
-    public ItemStack getGoldenOne() {
+    public final ItemStack getGoldenOne() {
         return goldenOne;
     }
 
-    public ItemStack getGoldenTwo() {
+    public final ItemStack getGoldenTwo() {
         return goldenTwo;
     }
 
-    public ItemStack getGoldenThree() {
+    public final ItemStack getGoldenThree() {
         return goldenThree;
     }
 
-    public ItemStack getGoldenFour() {
+    public final ItemStack getGoldenFour() {
         return goldenFour;
     }
 
-    public ItemStack getGoldenFive() {
+    public final ItemStack getGoldenFive() {
         return goldenFive;
     }
 
-    public ItemStack getGoldenSix() {
+    public final ItemStack getGoldenSix() {
         return goldenSix;
     }
 
@@ -149,54 +149,54 @@ public class Dice {
 
     private void generateGrayOne() {
         grayOne = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MTI2OTczNWYxZTQ0NmJlY2ZmMjVmOWNiM2M4MjM2Nzk3MTlhMTVmN2YwZmJjOWEwMzkxMWE2OTJiZGQifX19"))
-                .setName("§f1 §8(§7Ausgewählt§8)")
+                .setName("§f1 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
 
     private void generateGrayTwo() {
         grayTwo = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4MWEzMmQ5NzhmOTMzZGViN2VhMjZhYTMyNmU0MTc0Njk3NTk1YTQyNmVhYTlmMmFlNWY5YzJlNjYxMjkwIn19fQ=="))
-                .setName("§f2 §8(§7Ausgewählt§8)")
+                .setName("§f2 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
 
     private void generateGrayThree() {
         grayThree = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VhZGFkZWQ4MTU2M2YxYzg3NzY5ZDZjMDQ2ODlkY2RiOWU4Y2EwMWRhMzUyODFjZDhmZTI1MTcyOGQyZCJ9fX0="))
-                .setName("§f3 §8(§7Ausgewählt§8)")
+                .setName("§f3 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
 
     private void generateGrayFour() {
         grayFour = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM2MDhjMmRiNTI1ZDZkNzdmN2RlNGI5NjFkNjdlNTNlOWQ3YmFjZGFmZjMxZDRjYTEwZmJiZjkyZDY2In19fQ=="))
-                .setName("§f4 §8(§7Ausgewählt§8)")
+                .setName("§f4 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
 
     private void generateGrayFive() {
         grayFive = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE0NGM1MTkzNDM1MTk5YzEzNWJkNDdkMTY2ZWYxYjRlMmQzMjE4MzgzZGY5ZDM0ZTNiYjIwZDlmOGU1OTMifX19"))
-                .setName("§f5 §8(§7Ausgewählt§8)")
+                .setName("§f5 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
 
     private void generateGraySix() {
         graySix = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYxZjdlMzg1NTY4NTZlYWU1NTY2ZWYxYzQ0YThjYzY0YWY4ZjNhNTgxNjJiMWRkODAxNmE4Nzc4YzcxYyJ9fX0="))
-                .setName("§f6 §8(§7Ausgewählt§8)")
+                .setName("§f6 §8(§7" + Language.CHOSEN + "§8)")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§owird §f§onicht §7§oneu gewürfelt.")
+                .addLoreLine(" §7§o" + Language.CHOSEN_DICE_EXPLENATION + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -205,7 +205,7 @@ public class Dice {
         goldenOne = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU1ZmMyYzFiYWU4ZTA4ZDNlNDI2YzE3YzQ1NWQyZmY5MzQyMjg2ZGZmYTNjN2MyM2Y0YmQzNjVlMGMzZmUifX19"))
                 .setName("§61")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -214,7 +214,7 @@ public class Dice {
         goldenTwo = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2MWIwNGUxMmE4Nzk3NjdiM2I3MmQ2OTYyN2YyOWE4M2JkZWI2MjIwZjVkYzdiZWEyZWIyNTI5ZDViMDk3In19fQ=="))
                 .setName("§62")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -223,7 +223,7 @@ public class Dice {
         goldenThree = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyM2Y3NzU1OGNhNjA2MGI2ZGM2YTRkNGIxZDg2YzFhNWJlZTcwODE2NzdiYmMzMzZjY2I5MmZiZDNlZSJ9fX0="))
                 .setName("§63")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -232,7 +232,7 @@ public class Dice {
         goldenFour = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiOWM0ZDZmNzIwOGIxNDI0Zjg1OTViZmMxYjg1Y2NhYWVlMmM1YjliNDFlMGY1NjRkNGUwYWNhOTU5In19fQ=="))
                 .setName("§64")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -241,7 +241,7 @@ public class Dice {
         goldenFive = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMxNDE1OTczYjQyZjgyODZmOTQ4ZTIxNDA5OTJiOWEyOWQ4MDk2NTU5M2IxNDU1M2Q2NDRmNGZlYWZiNyJ9fX0="))
                 .setName("§65")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }
@@ -250,7 +250,7 @@ public class Dice {
         goldenSix = new ItemBuilder(SkullCreator.itemFromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZmNWZiZmJjODk0NGE1MDc3NzExMzc5OGU5ZmUzYWVhYzJlMzk2NDg5NDdiNzBjYzEwM2RlYjZjOWU4NjYxIn19fQ=="))
                 .setName("§66")
                 .addLoreLine("")
-                .addLoreLine(" §7§oDieser §f§oWürfel §7§ozählt in die §f§oWertung§7§o.")
+                .addLoreLine(" §7§o" + Language.DICE_IMPACT_ON_RATING + ".")
                 .addLoreLine("")
                 .toItemStack();
     }

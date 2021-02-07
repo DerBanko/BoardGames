@@ -10,7 +10,7 @@ public class GameListener implements Listener {
         this.game = game;
     }
 
-    public Game getGame() {
+    public final Game getGame() {
         return game;
     }
 }
